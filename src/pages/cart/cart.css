@@ -1,0 +1,49 @@
+/* Styles for the overall cart container */
+.cart {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+  }
+  
+  /* Styles for each cart item */
+  .cartItem {
+    width: 700px; /* Set a specific width */
+    height: 250px; /* Set a specific height */
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center content vertically */
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    border-radius: 25px; /* Round the corners */
+    margin: 30px; /* Add margin around each item */
+  }
+  
+  /* Styles for the cart item's image */
+  .cartItem img {
+    width: 200px; /* Set a specific width for the image */
+  }
+  
+  /* Styles for the description inside each cart item */
+  .cartItem .description {
+    width: 100%; /* Take up the full width available */
+    font-size: 30px; /* Set font size */
+  }
+  
+  /* Styles for the input in countHandler */
+  .countHandler input {
+    width: 40px; /* Set a specific width for the input field */
+    text-align: center; /* Center text horizontally */
+    font-weight: bolder; /* Use a bolder font weight */
+  }
+  
+  /* Styles for the checkout button */
+  .checkout button {
+    width: 150px; /* Set a specific width for the button */
+    height: 50px; /* Set a specific height for the button */
+    background-color: rgb(19, 19, 19); /* Set background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Round the corners */
+    margin: 10px; /* Add margin around the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
